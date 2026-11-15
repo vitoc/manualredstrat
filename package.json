@@ -1,0 +1,17 @@
+{
+  "name": "runningroot-scan-strategy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scan for chickens, chase them, and patrol horizontally.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node strategy.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "runningroot.js": "github:vitoc/runningroot.js"
+  }
+}
